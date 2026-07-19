@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fares — Technicien Systèmes &amp; Réseaux</title>
+<meta name="description" content="Portfolio de Fares, étudiant BTS SIO SISR à Dijon — infrastructure, systèmes, réseaux.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ======== NAV ======== -->
+<header class="topbar">
+  <div class="wrap topbar__inner">
+    <a href="#top" class="brand">
+      <span class="brand__dot" aria-hidden="true"></span>
+      <span class="brand__text">Fares <span class="brand__sub">SISR</span></span>
+    </a>
+
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="#presentation" class="nav__link" data-nav>Présentation</a>
+      <a href="#projets" class="nav__link" data-nav>Projets</a>
+      <a href="#cv" class="nav__link" data-nav>CV</a>
+      <a href="#contact" class="nav__link" data-nav>Contact</a>
+    </nav>
+
+    <a href="#contact" class="btn btn--ghost topbar__cta">Me contacter</a>
+
+    <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#presentation" data-nav>Présentation</a>
+    <a href="#projets" data-nav>Projets</a>
+    <a href="#cv" data-nav>CV</a>
+    <a href="#contact" data-nav>Contact</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ======== HERO ======== -->
+  <section class="hero wrap" id="hero">
+    <div class="hero__text">
+      <p class="eyebrow"><span class="led led--green"></span> Disponible pour une alternance ou un stage</p>
+      <h1 class="hero__title">
+        Je maintiens les<br>
+        systèmes <span class="accent-underline">en ligne</span>,<br>
+        les réseaux <span class="accent-underline">stables</span>.
+      </h1>
+      <p class="hero__lede">
+        Fares — étudiant en <strong>BTS SIO, option SISR</strong> à Dijon.
+        J'interviens sur l'administration systèmes, l'infrastructure réseau
+        et l'automatisation par script, actuellement en stage sur le parc
+        informatique de l'UFR Sciences (Université de Bourgogne).
+      </p>
+      <div class="hero__actions">
+        <a href="#projets" class="btn btn--primary">Voir les projets</a>
+        <a href="#cv" class="btn btn--outline">Consulter le CV</a>
+      </div>
+
+      <div class="quickfacts" role="img" aria-label="Fiche d'identité résumée">
+        <div class="quickfacts__row">
+          <span class="quickfacts__k">Poste visé</span>
+          <span class="quickfacts__v">Technicien Systèmes &amp; Réseaux (SISR)</span>
+        </div>
+        <div class="quickfacts__row">
+          <span class="quickfacts__k">Localisation</span>
+          <span class="quickfacts__v">Dijon, France</span>
+        </div>
+        <div class="quickfacts__row">
+          <span class="quickfacts__k">Statut</span>
+          <span class="quickfacts__v"><span class="led led--green"></span> Stage terminé — ouvert aux opportunités</span>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ======== PRESENTATION ======== -->
+  <section class="section" id="presentation">
+    <div class="wrap">
+      <p class="eyebrow">Présentation</p>
+      <h2 class="section__title">Parcours &amp; compétences</h2>
+
+      <div class="grid-2">
+        <div class="prose">
+          <p>
+            Actuellement en 2ème année de <strong>BTS SIO, spécialité SISR</strong>
+            (Solutions d'Infrastructure, Systèmes et Réseaux), je me forme au métier
+            de technicien systèmes et réseaux avec un vrai goût pour le terrain :
+            configuration de postes, gestion d'annuaire, supervision et sécurité.
+          </p>
+          <p>
+            Mon stage se déroule à l'<strong>UFR Droit et Lettres de l'Université de Bourgogne</strong>,
+            où je participe à des projets concrets de gestion de parc : renommage
+            de postes à grande échelle, déploiement et mise à jour d'agents de
+            sécurité, et suivi de l'infrastructure réseau. J'aime automatiser les
+            tâches répétitives avec PowerShell plutôt que de les refaire
+            à la main.
+          </p>
+          <p class="muted">
+            Objectif : une alternance ou un stage en tant que technicien systèmes
+            et réseaux / support N1-N2 pour la suite de mon parcours.
+          </p>
+        </div>
+
+        <div class="panel-panel">
+          <p class="panel-panel__title">Compétences</p>
+          <div class="ports">
+            <span class="port">Windows / Linux Server / AD DS</span>
+            <span class="port">Réseaux : VLAN, sous-réseaux, routage</span>
+            <span class="port">PowerShell (scripting, automatisation)</span>
+            <span class="port">Sécurité — agents EDR (Wazuh , Veyon)</span>
+            <span class="port">Supervision &amp; gestion de parc</span>
+            <span class="port">Virtualisation (VM multi-réseaux)</span>
+            <span class="port">Gitea / gestion de versions</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== PROJETS ======== -->
+  <section class="section section--alt" id="projets">
+    <div class="wrap">
+      <p class="eyebrow">Projets</p>
+      <h2 class="section__title">Réalisations</h2>
+      <p class="section__intro muted">
+        Une sélection de scripts et projets menés en stage et en formation.
+        Chaque fiche résume le contexte, la solution mise en place et les
+        outils utilisés.
+      </p>
+
+      <div class="tickets">
+
+        <article class="ticket">
+          <div class="ticket__head">
+            <span class="tag tag--open">Terminé</span>
+          </div>
+          <h3 class="ticket__title">Renommage automatisé du parc informatique</h3>
+          <p class="ticket__desc">
+            Script <code>Rename-DevicesFromCSV.ps1</code> pour renommer en masse
+            les postes du parc selon une nomenclature par bâtiment et type de
+            machine, à partir d'un inventaire CSV extraite de l'IPAM. Gestion des cas particuliers :
+            délimiteurs CSV français, valeurs partielles, préfixes multi-lettres
+            et numéros de salle à longueur variable.
+          </p>
+          <ul class="ticket__stack">
+            <li>PowerShell</li>
+            <li>Regex</li>
+            <li>CSV / Excel</li>
+          </ul>
+        </article>
+
+        <article class="ticket">
+          <div class="ticket__head">
+            <span class="tag tag--progress">Terminé</span>
+          </div>
+          <h3 class="ticket__title">Mise à jour de l'agent de sécurité Wazuh</h3>
+          <p class="ticket__desc">
+            Script d'upgrade couvrant la sauvegarde de configuration,
+            la désinstallation, la réinstallation de l'agent et la restauration
+            des paramètres, pour fiabiliser le déploiement sur l'ensemble du parc.
+          </p>
+          <ul class="ticket__stack">
+            <li>PowerShell</li>
+            <li>Wazuh / EDR</li>
+            <li>Gestion de config</li>
+          </ul>
+        </article>
+
+        <article class="ticket">
+          <div class="ticket__head">
+            <span class="tag tag--open">Terminé</span>
+          </div>
+          <h3 class="ticket__title">Migration de documentation DokuWiki → Zim</h3>
+          <p class="ticket__desc">
+            Script Python de conversion des pages DokuWiki vers le format
+            Zim Desktop Wiki, pour rapatrier une base de documentation
+            technique locale sans perte de structure.
+          </p>
+          <ul class="ticket__stack">
+            <li>PowerShell</li>
+            <li>Parsing de texte</li>
+            <li>Migration de données</li>
+          </ul>
+        </article>
+
+        <article class="ticket">
+          <div class="ticket__head">
+            <span class="tag tag--open">Terminé</span>
+          </div>
+          <h3 class="ticket__title">Maquette d'infrastructure réseau multi-VLAN</h3>
+          <p class="ticket__desc">
+            Conception d'une infrastructure virtualisée avec plusieurs machines
+            réparties sur différents sous-réseaux, documentée sous forme de
+            tableaux d'adressage, et présentée avec une installation Gitea
+            comme cas d'usage.
+          </p>
+          <ul class="ticket__stack">
+            <li>Virtualisation</li>
+            <li>Adressage IP / VLAN</li>
+            <li>Gitea</li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== CV ======== -->
+  <section class="section" id="cv">
+    <div class="wrap">
+      <p class="eyebrow">CV</p>
+      <h2 class="section__title">Curriculum vitae</h2>
+
+
+      <div class="cv-box">
+        <div class="cv-box__viewer" id="cvViewerWrap">
+          <object id="cvObject" data="cv.pdf" type="application/pdf" class="cv-box__object">
+            <div class="cv-box__empty" id="cvEmptyState">
+              <p><strong>Aucun CV trouvé</strong> à l'emplacement <code>cv.pdf</code>.</p>
+            </div>
+          </object>
+        </div>
+
+        <div class="cv-box__controls">
+ 
+          <a id="cvDownload" href="cv.pdf" download class="btn btn--outline">Télécharger le CV</a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== CONTACT ======== -->
+  <section class="section section--alt" id="contact">
+    <div class="wrap">
+      <p class="eyebrow">Contact</p>
+      <h2 class="section__title">Me contacter</h2>
+
+      <div class="grid-2 grid-2--contact">
+        <div class="contact-card">
+          <p class="contact-card__title">Coordonnées directes</p>
+          <ul class="contact-list">
+            <li>
+              <span class="contact-list__k">Email</span>
+              <a href="mailto:fares.exemple@email.com" id="contactEmailLink">zaidanfares21300@gmail.com</a>
+            </li>
+            <li>
+              <span class="contact-list__k">Téléphone</span>
+              <a href="tel:+33600000000">07 62 24 54 89</a>
+            </li>
+            <li>
+              <span class="contact-list__k">Localisation</span>
+              <span>Dijon, Bourgogne-Franche-Comté</span>
+            </li>
+           
+            <li>
+              <span class="contact-list__k">GitHub</span>
+              <a href="#" target="_blank" rel="noopener">https://github.com/D4CFZ</a>
+            </li>
+          </ul>
+         
+        </div>
+
+ <a href="mailto:zaidanfares21300@gmail.com" class="btn btn--primary">Envoyer un message</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <p>Fares — Technicien Systèmes &amp; Réseaux — Dijon, FR</p>
+    <p class="muted">Fait en HTML / CSS / JS.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
